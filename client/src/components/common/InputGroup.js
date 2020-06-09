@@ -12,7 +12,7 @@ const InputGroup = ({
   onChange,
 }) => {
   return (
-    <div className="input-group nb-3">
+    <div className="input-group mb-3">
       <div className="input-group-prepend">
         <span className="input-group-text">
           <i className={icon} />
@@ -42,7 +42,7 @@ InputGroup.propTypes = {
   onChange: PropTypes.func.isRequired,
 };
 
-InputGroup.defaulProps = {
+InputGroup.defaultProps = {
   type: "text",
 };
 
